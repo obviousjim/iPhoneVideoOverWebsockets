@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A678E5FC14885F1F00ECFC0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A678E5FB14885F1F00ECFC0C /* UIKit.framework */; };
+		A678E5FE14885F1F00ECFC0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A678E5FD14885F1F00ECFC0C /* Foundation.framework */; };
+		A678E60014885F1F00ECFC0C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A678E5FF14885F1F00ECFC0C /* CoreGraphics.framework */; };
+		A678E60614885F1F00ECFC0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A678E60414885F1F00ECFC0C /* InfoPlist.strings */; };
+		A678E60914885F1F00ECFC0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A678E60814885F1F00ECFC0C /* main.m */; };
+		A678E60C14885F1F00ECFC0C /* VideoToWebsocketsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A678E60B14885F1F00ECFC0C /* VideoToWebsocketsAppDelegate.m */; };
+		A678E60F14885F1F00ECFC0C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A678E60D14885F1F00ECFC0C /* MainWindow.xib */; };
+		A678E61214885F1F00ECFC0C /* VideoToWebsocketsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A678E61114885F1F00ECFC0C /* VideoToWebsocketsViewController.m */; };
+		A678E61514885F1F00ECFC0C /* VideoToWebsocketsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A678E61314885F1F00ECFC0C /* VideoToWebsocketsViewController.xib */; };
+		A678E6301488655C00ECFC0C /* VTWSVideoSenderConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = A678E62F1488655C00ECFC0C /* VTWSVideoSenderConnection.m */; };
+		A67993071488747F00CF6EA4 /* libUnittWebSocketClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A67993061488747F00CF6EA4 /* libUnittWebSocketClient.a */; };
+		A67993171488771700CF6EA4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A67993161488771700CF6EA4 /* CFNetwork.framework */; };
+		A679932A14892D0E00CF6EA4 /* VTWSVideoProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = A679932914892D0E00CF6EA4 /* VTWSVideoProcessor.m */; };
+		A679932D14893C4000CF6EA4 /* libUnittWebSocketClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A679932C14893C4000CF6EA4 /* libUnittWebSocketClient.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A678E5F714885F1E00ECFC0C /* VideoToWebsockets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoToWebsockets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A678E5FB14885F1F00ECFC0C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A678E5FD14885F1F00ECFC0C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A678E5FF14885F1F00ECFC0C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A678E60314885F1F00ECFC0C /* VideoToWebsockets-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoToWebsockets-Info.plist"; sourceTree = "<group>"; };
+		A678E60514885F1F00ECFC0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A678E60714885F1F00ECFC0C /* VideoToWebsockets-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoToWebsockets-Prefix.pch"; sourceTree = "<group>"; };
+		A678E60814885F1F00ECFC0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A678E60A14885F1F00ECFC0C /* VideoToWebsocketsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoToWebsocketsAppDelegate.h; sourceTree = "<group>"; };
+		A678E60B14885F1F00ECFC0C /* VideoToWebsocketsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoToWebsocketsAppDelegate.m; sourceTree = "<group>"; };
+		A678E60E14885F1F00ECFC0C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A678E61014885F1F00ECFC0C /* VideoToWebsocketsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoToWebsocketsViewController.h; sourceTree = "<group>"; };
+		A678E61114885F1F00ECFC0C /* VideoToWebsocketsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoToWebsocketsViewController.m; sourceTree = "<group>"; };
+		A678E61414885F1F00ECFC0C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VideoToWebsocketsViewController.xib; sourceTree = "<group>"; };
+		A678E62E1488655C00ECFC0C /* VTWSVideoSenderConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTWSVideoSenderConnection.h; sourceTree = "<group>"; };
+		A678E62F1488655C00ECFC0C /* VTWSVideoSenderConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTWSVideoSenderConnection.m; sourceTree = "<group>"; };
+		A67993061488747F00CF6EA4 /* libUnittWebSocketClient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libUnittWebSocketClient.a; path = "VideoToWebsockets/UnittWebSocketClient/bin/Debug-iphoneos/libUnittWebSocketClient.a"; sourceTree = "<group>"; };
+		A679930A148874EE00CF6EA4 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		A679930B148874EE00CF6EA4 /* HandshakeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandshakeHeader.h; sourceTree = "<group>"; };
+		A679930C148874EE00CF6EA4 /* MutableQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutableQueue.h; sourceTree = "<group>"; };
+		A679930D148874EE00CF6EA4 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		A679930E148874EE00CF6EA4 /* WebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSocket.h; sourceTree = "<group>"; };
+		A679930F148874EE00CF6EA4 /* WebSocket00.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSocket00.h; sourceTree = "<group>"; };
+		A6799310148874EE00CF6EA4 /* WebSocket07.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSocket07.h; sourceTree = "<group>"; };
+		A6799311148874EE00CF6EA4 /* WebSocket08.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSocket08.h; sourceTree = "<group>"; };
+		A6799312148874EE00CF6EA4 /* WebSocket10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSocket10.h; sourceTree = "<group>"; };
+		A6799313148874EE00CF6EA4 /* WebSocketConnectConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSocketConnectConfig.h; sourceTree = "<group>"; };
+		A6799314148874EE00CF6EA4 /* WebSocketFragment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSocketFragment.h; sourceTree = "<group>"; };
+		A6799315148874EE00CF6EA4 /* WebSocketMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSocketMessage.h; sourceTree = "<group>"; };
+		A67993161488771700CF6EA4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A679932814892D0E00CF6EA4 /* VTWSVideoProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTWSVideoProcessor.h; sourceTree = "<group>"; };
+		A679932914892D0E00CF6EA4 /* VTWSVideoProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTWSVideoProcessor.m; sourceTree = "<group>"; };
+		A679932C14893C4000CF6EA4 /* libUnittWebSocketClient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libUnittWebSocketClient.a; path = "VideoToWebsockets/UnittWebSocketClient/bin/Debug-iphonesimulator/libUnittWebSocketClient.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A678E5F414885F1E00ECFC0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67993171488771700CF6EA4 /* CFNetwork.framework in Frameworks */,
+				A678E5FC14885F1F00ECFC0C /* UIKit.framework in Frameworks */,
+				A678E5FE14885F1F00ECFC0C /* Foundation.framework in Frameworks */,
+				A678E60014885F1F00ECFC0C /* CoreGraphics.framework in Frameworks */,
+				A67993071488747F00CF6EA4 /* libUnittWebSocketClient.a in Frameworks */,
+				A679932D14893C4000CF6EA4 /* libUnittWebSocketClient.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A678E5EC14885F1E00ECFC0C = {
+			isa = PBXGroup;
+			children = (
+				A678E60114885F1F00ECFC0C /* VideoToWebsockets */,
+				A678E5FA14885F1F00ECFC0C /* Frameworks */,
+				A678E5F814885F1E00ECFC0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A678E5F814885F1E00ECFC0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A678E5F714885F1E00ECFC0C /* VideoToWebsockets.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A678E5FA14885F1F00ECFC0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A67993061488747F00CF6EA4 /* libUnittWebSocketClient.a */,
+				A679932C14893C4000CF6EA4 /* libUnittWebSocketClient.a */,
+				A67993161488771700CF6EA4 /* CFNetwork.framework */,
+				A678E5FB14885F1F00ECFC0C /* UIKit.framework */,
+				A678E5FD14885F1F00ECFC0C /* Foundation.framework */,
+				A678E5FF14885F1F00ECFC0C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A678E60114885F1F00ECFC0C /* VideoToWebsockets */ = {
+			isa = PBXGroup;
+			children = (
+				A679932B148938BA00CF6EA4 /* Video */,
+				A678E62D1488652200ECFC0C /* WebSockets */,
+				A678E60A14885F1F00ECFC0C /* VideoToWebsocketsAppDelegate.h */,
+				A678E60B14885F1F00ECFC0C /* VideoToWebsocketsAppDelegate.m */,
+				A678E60D14885F1F00ECFC0C /* MainWindow.xib */,
+				A678E61014885F1F00ECFC0C /* VideoToWebsocketsViewController.h */,
+				A678E61114885F1F00ECFC0C /* VideoToWebsocketsViewController.m */,
+				A678E61314885F1F00ECFC0C /* VideoToWebsocketsViewController.xib */,
+				A678E60214885F1F00ECFC0C /* Supporting Files */,
+			);
+			path = VideoToWebsockets;
+			sourceTree = "<group>";
+		};
+		A678E60214885F1F00ECFC0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6799308148874E500CF6EA4 /* UnittWebSocketClient */,
+				A678E60314885F1F00ECFC0C /* VideoToWebsockets-Info.plist */,
+				A678E60414885F1F00ECFC0C /* InfoPlist.strings */,
+				A678E60714885F1F00ECFC0C /* VideoToWebsockets-Prefix.pch */,
+				A678E60814885F1F00ECFC0C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A678E62D1488652200ECFC0C /* WebSockets */ = {
+			isa = PBXGroup;
+			children = (
+				A678E62E1488655C00ECFC0C /* VTWSVideoSenderConnection.h */,
+				A678E62F1488655C00ECFC0C /* VTWSVideoSenderConnection.m */,
+			);
+			name = WebSockets;
+			sourceTree = "<group>";
+		};
+		A6799308148874E500CF6EA4 /* UnittWebSocketClient */ = {
+			isa = PBXGroup;
+			children = (
+				A6799309148874EE00CF6EA4 /* include */,
+			);
+			name = UnittWebSocketClient;
+			sourceTree = "<group>";
+		};
+		A6799309148874EE00CF6EA4 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A679930A148874EE00CF6EA4 /* AsyncSocket.h */,
+				A679930B148874EE00CF6EA4 /* HandshakeHeader.h */,
+				A679930C148874EE00CF6EA4 /* MutableQueue.h */,
+				A679930D148874EE00CF6EA4 /* NSData+Base64.h */,
+				A679930E148874EE00CF6EA4 /* WebSocket.h */,
+				A679930F148874EE00CF6EA4 /* WebSocket00.h */,
+				A6799310148874EE00CF6EA4 /* WebSocket07.h */,
+				A6799311148874EE00CF6EA4 /* WebSocket08.h */,
+				A6799312148874EE00CF6EA4 /* WebSocket10.h */,
+				A6799313148874EE00CF6EA4 /* WebSocketConnectConfig.h */,
+				A6799314148874EE00CF6EA4 /* WebSocketFragment.h */,
+				A6799315148874EE00CF6EA4 /* WebSocketMessage.h */,
+			);
+			name = include;
+			path = UnittWebSocketClient/include;
+			sourceTree = "<group>";
+		};
+		A679932B148938BA00CF6EA4 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				A679932814892D0E00CF6EA4 /* VTWSVideoProcessor.h */,
+				A679932914892D0E00CF6EA4 /* VTWSVideoProcessor.m */,
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A678E5F614885F1E00ECFC0C /* VideoToWebsockets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A678E61814885F1F00ECFC0C /* Build configuration list for PBXNativeTarget "VideoToWebsockets" */;
+			buildPhases = (
+				A678E5F314885F1E00ECFC0C /* Sources */,
+				A678E5F414885F1E00ECFC0C /* Frameworks */,
+				A678E5F514885F1E00ECFC0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoToWebsockets;
+			productName = VideoToWebsockets;
+			productReference = A678E5F714885F1E00ECFC0C /* VideoToWebsockets.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A678E5EE14885F1E00ECFC0C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A678E5F114885F1E00ECFC0C /* Build configuration list for PBXProject "VideoToWebsockets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A678E5EC14885F1E00ECFC0C;
+			productRefGroup = A678E5F814885F1E00ECFC0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A678E5F614885F1E00ECFC0C /* VideoToWebsockets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A678E5F514885F1E00ECFC0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A678E60614885F1F00ECFC0C /* InfoPlist.strings in Resources */,
+				A678E60F14885F1F00ECFC0C /* MainWindow.xib in Resources */,
+				A678E61514885F1F00ECFC0C /* VideoToWebsocketsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A678E5F314885F1E00ECFC0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A678E60914885F1F00ECFC0C /* main.m in Sources */,
+				A678E60C14885F1F00ECFC0C /* VideoToWebsocketsAppDelegate.m in Sources */,
+				A678E61214885F1F00ECFC0C /* VideoToWebsocketsViewController.m in Sources */,
+				A678E6301488655C00ECFC0C /* VTWSVideoSenderConnection.m in Sources */,
+				A679932A14892D0E00CF6EA4 /* VTWSVideoProcessor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A678E60414885F1F00ECFC0C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A678E60514885F1F00ECFC0C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A678E60D14885F1F00ECFC0C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A678E60E14885F1F00ECFC0C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		A678E61314885F1F00ECFC0C /* VideoToWebsocketsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A678E61414885F1F00ECFC0C /* en */,
+			);
+			name = VideoToWebsocketsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A678E61614885F1F00ECFC0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = UnittWebSocketClient/include;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = "UnittWebSocketClient/bin/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A678E61714885F1F00ECFC0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = UnittWebSocketClient/include;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = "UnittWebSocketClient/bin/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		A678E61914885F1F00ECFC0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoToWebsockets/VideoToWebsockets-Prefix.pch";
+				INFOPLIST_FILE = "VideoToWebsockets/VideoToWebsockets-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/VideoToWebsockets/UnittWebSocketClient/bin/Debug-iphoneos\"",
+					"\"$(SRCROOT)/VideoToWebsockets/UnittWebSocketClient/bin/Debug-iphonesimulator\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A678E61A14885F1F00ECFC0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoToWebsockets/VideoToWebsockets-Prefix.pch";
+				INFOPLIST_FILE = "VideoToWebsockets/VideoToWebsockets-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/VideoToWebsockets/UnittWebSocketClient/bin/Debug-iphoneos\"",
+					"\"$(SRCROOT)/VideoToWebsockets/UnittWebSocketClient/bin/Debug-iphonesimulator\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A678E5F114885F1E00ECFC0C /* Build configuration list for PBXProject "VideoToWebsockets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A678E61614885F1F00ECFC0C /* Debug */,
+				A678E61714885F1F00ECFC0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A678E61814885F1F00ECFC0C /* Build configuration list for PBXNativeTarget "VideoToWebsockets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A678E61914885F1F00ECFC0C /* Debug */,
+				A678E61A14885F1F00ECFC0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A678E5EE14885F1E00ECFC0C /* Project object */;
+}
