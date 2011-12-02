@@ -11,7 +11,7 @@
 			var socket = "p5websocket";
 			
 			function ready() {
-				ws = new WebSocket("ws://192.168.1.122:8080/p5websocket");
+				ws = new WebSocket("ws://localhost:8080/p5websocket");
 
 				ws.onopen = function () {
 				  ws.send('Ping');
@@ -25,7 +25,8 @@
 
 				var img;
 				ws.onmessage = function (e) {
-					$("#image").attr('src',  'data:image/jpg;base64,'+e.data);
+					//$("#image").attr('src',  'data:image/jpg;base64,'+e.data);
+					$("#test").text( e.data );
 				}
 			}
 						
@@ -33,8 +34,8 @@
 		</script>
 	</head>
 	<body>
-		<div id="test-target">
-			
+		<div id="test">
+			no message yet
 		</div>
 		<img id="image" src="" width="640" height="480"/>
 	</body>
